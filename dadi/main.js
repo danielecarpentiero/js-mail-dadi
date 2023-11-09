@@ -13,6 +13,8 @@ console.log(computerRoll);
 
 if (humanDiceRoll > computerDiceRoll) {
   console.log("The user wins!");
-} else {
+} else if (computerDiceRoll > humanDiceRoll) {
   console.log("Computer wins!");
+} else {
+  console.log("draw!");
 }
