@@ -1,1 +1,1 @@
-# js-mail-dadi
+# JS mail & dadi
