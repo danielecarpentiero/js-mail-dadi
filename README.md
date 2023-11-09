@@ -7,6 +7,7 @@
 5. stampo in console la stringa _playerRoll_
 6. stampo in console la stringa _computerRoll_
    - se il valore del tiro del dado del giocatore umano è maggiore di quello del computer, allora umano vince.
-   - altrimenti, computer vince.
+   - altrimenti se, il valore del tiro del dado del computer è maggiore di quello del giocatore umano, allora computer vince.
+   - altrimenti, finisce in parità.
 
 # JS Mail
