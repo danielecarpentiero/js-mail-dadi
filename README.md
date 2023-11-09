@@ -11,3 +11,11 @@
    - altrimenti, finisce in parità.
 
 # JS Mail
+
+1. creo l'array contenente delle email fittizie
+2. creo una variabile mail che chieda (_prompt_) all'utente di inserire la sua email
+3. assegno una condizione booleana di default (_false_) che è la condizione standard quando l'utente non compila il campo email o l'email non è presente nell'array
+4. creo un ciclo _for_, in modo che si verifichi se la mail inserita col prompt dell'utente esiste nel pool di email dell'array
+   - _se_ c'é corrispondenza tra il valore inserito dall'utente e la mail dell'array, allora la condizione booleana diventa _true_
+     - _se_ la condiziona booleana è diventata _true_, viene stampato il messaggio "benvenuto!"
+     - _altrimenti_, viene stampato il messaggio "email non presente!"
